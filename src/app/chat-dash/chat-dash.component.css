@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.users{
+    width: 20%;
+    /* height: 522px; */
+}
+.users-chat{
+    border-left: 1px solid rgb(215, 233, 250);
+    width: 80%;
+    /* height: 522px; */
+}
+/* .chating{
+    position: absolute;
+} */
+.chat-text{
+    height: 487px;
+}
+.user-names{
+    background-color: rgb(249, 251, 252);
+    height: 40px;
+    display: flex;
+    padding-left: 8px;
+    border-bottom: 1px solid rgb(215, 233, 250);
+    cursor: pointer;
+}
+
+.user-names:hover{ 
+    background-color: black;
+    color: #fff;
+}
+
+.user-names img{
+    border-radius: 50%;
+    padding: 3px;
+}
+.user-names h1{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.ant-divider-horizontal { 
+    margin: 2px 0 !important;
+}

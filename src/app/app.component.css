@@ -1,0 +1,30 @@
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+.dash-section{
+  height: calc(100vh -70px);
+  width: 100%;
+  padding-top: 30px;
+  background-color: rgb(255, 253, 253);
+}
+.chat{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.chat-table{
+  border: 1px solid rgb(215, 233, 250);
+  width: 80%;
+  height: 90vh;
+}
+.header{
+  height: 40px;
+  background-color: rgb(225, 239, 252);
+}
+.header p{
+ padding-top: -2px;
+ padding-left: 20px;
+ font-size: 24px;
+ font-weight: 600;
+}
